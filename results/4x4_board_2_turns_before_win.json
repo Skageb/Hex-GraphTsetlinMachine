@@ -1,0 +1,28 @@
+{
+    "eval_accuracy": 61.0,
+    "n_train_games": 10000,
+    "f1_test": 0.7169811320754716,
+    "train_accuracy": 62.175000000000004,
+    "EPOCHS": 1,
+    "hypervector_size": 120,
+    "hypervector_bits": 2,
+    "train_time": 16.38081674699788,
+    "graph_initalization_time": 2.986985227005789,
+    "TM_args": {
+        "number_of_clauses": 7500,
+        "T": 3750,
+        "s": 2.0,
+        "number_of_state_bits": 32,
+        "depth": 1,
+        "message_size": 256,
+        "message_bits": 2,
+        "max_included_literals": 100,
+        "double_hashing": true
+    },
+    "train_accuracy_across_epochs": [
+        62.175000000000004
+    ],
+    "test_accuarcy_across_epochs": [
+        61.0
+    ]
+}

@@ -1,0 +1,54 @@
+#Do not include datasets and result files in the git commit.
+hex_datasets/*
+results/*
+
+# Byte-compiled / compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+env/
+venv/
+build/
+dist/
+eggs/
+*.egg-info/
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.cache/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# jupyter notebooks checkpoints
+.ipynb_checkpoints
+
+# mypy
+.mypy_cache/
+.dmypy.json
+.dmypy/
+
+# pyenv
+.python-version
+
+# macOS files
+.DS_Store
+
+# Editor and IDE specific
+.vscode/
+.idea/
+*.swp
